@@ -1,0 +1,126 @@
+.App {
+  text-align: center; /* Keep the text centered */
+  /* Add some padding for better spacing */
+  padding: 5px; 
+}
+
+/* Remove App-logo styles as they are not relevant */
+.App-logo { 
+  display: WEBGCS; 
+}
+
+.map-container {
+  position: relative; 
+  width: 101%;
+  height: 100%; /* Adjust the map height as needed */
+  margin-top: 0px; /* Add some space above the map */
+  margin-bottom: 0px;
+  
+}
+
+.buttons-overlay {
+  position: absolute;
+  top: 50px; 
+  left: 50px; 
+  z-index: 1000; 
+  background-color: none; 
+  padding: 10px;
+  border-radius: 5px;
+  display: grid; /* Arrange buttons horizontally */
+  gap: 100px; /* Add space between buttons */
+}
+
+.info{
+  position: absolute;
+  top: 70px; 
+  right: 10px; 
+  z-index: 1000; 
+  background-color: rgba(247, 243, 4, 0.7); 
+  padding: 10px;
+  border-radius: 5px;
+  display: grid; /* Arrange buttons horizontally */
+  gap: 10px; /* Add space between buttons */
+
+}
+.head{
+  position: absolute;
+  top: 0px; 
+  right: 650px; 
+  z-index: 1000; 
+  background-color: rgba(234, 227, 16, 0.7); 
+  padding: 5px;
+  border-radius: 3px;
+  display: grid; /* Arrange buttons horizontally */
+  gap: 10px; /* Add space between buttons */
+}
+.critical{
+  position: absolute;
+  top: 190px; 
+  right: -10px; 
+  z-index: 1000; 
+  background-color:none; 
+  padding: 10px;
+  border-radius: 5px;
+  display: grid; /* Arrange buttons horizontally */
+  gap: 80px; /* Add space between buttons */
+
+}
+
+/* Style the buttons (you might need to adjust based on your button components) */
+.buttons-overlay button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 6px 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.critical button{
+  background-color: #e53048; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 6px 3px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.info button{
+  background-color: #670512; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 6px 3px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+/* Add hover effect to buttons */
+.buttons-overlay button:hover {
+  opacity: 0.5;
+}
+
+/* Add hover effect to buttons */
+.critical button:hover {
+  opacity: 0.5;
+}
+/* Style the headings */
+h2 {
+  margin-top: 0px;
+  color: #333; /* Dark gray */
+}
+
+/* You can add more styles for other elements as needed */
